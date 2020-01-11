@@ -1,5 +1,7 @@
 FROM jmercha/raspbian
 
+MAINTAINER John Merchant <john@jmercha.dev>
+
 RUN apt-get update && apt-get upgrade && \
 	apt-get install curl raspi-config dbus systemd libraspberrypi-bin -y && \
 	apt-get clean && \
