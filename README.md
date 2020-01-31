@@ -9,5 +9,5 @@ This is useful if you are running a distro other than Raspbian and want to run t
 To enable argononed
 
 ```
-docker run --privileged -dit jmercha/argononed --name=argononed --restart=always 
+docker run --privileged --name=argononed --restart=always -dit jmercha/argononed
 ```
